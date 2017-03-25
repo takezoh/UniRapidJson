@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{c4aff128-c83c-4f0a-9ead-aa4064cd77c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\runtime-support">
+      <UniqueIdentifier>{b7fa8292-cc64-4f6d-a8d0-b81530bffa77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\platform">
+      <UniqueIdentifier>{ecdfad47-a244-4e3e-9f69-21337ab8b8ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\runtime-support\unity">
+      <UniqueIdentifier>{6c22c13c-33ef-4ba2-975e-84791b946db7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\runtime-support\unity\native">
+      <UniqueIdentifier>{9157ac1e-2ad8-4156-bafa-93a7eb30a843}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\src\platform-env.h">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\runtime-support\unity\native\cstype.h">
+      <Filter>src\runtime-support\unity\native</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\src\runtime-support\unity\native\unity-support.cpp">
+      <Filter>src\runtime-support\unity\native</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d77cf66c-5995-444a-9037-311875e45fbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\platform">
+      <UniqueIdentifier>{fe03217e-19de-4cf3-ab43-2cb7e5e139b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\runtime-support">
+      <UniqueIdentifier>{cb2a2835-dc90-4462-88ad-7f287cda6d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\runtime-support\unity">
+      <UniqueIdentifier>{4728f9c6-1c14-4caa-bda9-8f25bbe78e3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\runtime-support\unity\native">
+      <UniqueIdentifier>{04cfcb31-2081-4ee2-8703-c2871473a326}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\src\platform\platform-env.h">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\runtime-support\unity\native\cstype.h">
+      <Filter>src\runtime-support\unity\native</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\src\runtime-support\unity\native\unity-support.cpp">
+      <Filter>src\runtime-support\unity\native</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
