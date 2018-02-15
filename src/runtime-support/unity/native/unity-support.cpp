@@ -258,15 +258,18 @@ extern "C" {
 	}
 
 	DLLEXPORT BOOL _rapidjson_is_float(INTPTR<Value>::CP src) {
-		return src && (src->IsFloat() || src->IsInt());
+		// return src && (src->IsFloat() || src->IsInt());
+		return src && src->IsFloat();
 	}
 
 	DLLEXPORT BOOL _rapidjson_is_double(INTPTR<Value>::CP src) {
-		return src && (src->IsDouble() || src->IsInt64());
+		// return src && (src->IsDouble() || src->IsInt64());
+		return src && src->IsDouble();
 	}
 
 	DLLEXPORT BOOL _rapidjson_is_string(INTPTR<Value>::CP src) {
-		return src && (src->IsString() || src->IsNull());
+		// return src && (src->IsString() || src->IsNull());
+		return src && src->IsString();
 	}
 
 	DLLEXPORT BOOL _rapidjson_is_bool(INTPTR<Value>::CP src) {
